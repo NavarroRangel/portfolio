@@ -215,11 +215,11 @@
             <h2>Entre em Contato</h2>
         </div>
         <div class="contact-form">
-            <form action="">
-                <input type="text" placeholder="Seu nome" name="nome" required>
-                <input type="email" placeholder="Seu email" name="email" required>
-                <textarea placeholder="Sua Mensagem" name="mensagem" id="" cols="30" rows="10" required></textarea>
-                <button type="submit" value="sendMessage" class="send-btn">Enviar</button>
+            <form id="contact-form"  method="POST">
+                <input type="text" placeholder="Seu nome" id="name" required>
+                <input type="email" placeholder="Seu email" id="email" required>
+                <textarea placeholder="Sua Mensagem" id="message" name="message" id="" cols="30" rows="10" required></textarea>
+                <button type="submit" value="sendMessage" id="send-btn" class="send-btn">Enviar</button>
 
             </form>
         </div>
@@ -254,6 +254,8 @@
             duration: 1000,
         });
     </script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="./script/mail.js"></script>
 
 </body>
 
