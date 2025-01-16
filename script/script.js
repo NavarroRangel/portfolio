@@ -18,3 +18,4 @@ menu.onscroll = () => {
     menu.classList.toggle("bx-x");
     navlist.remove.toggle("active")
 }
+
