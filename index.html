@@ -20,6 +20,7 @@
     <!--remox icon-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -51,7 +52,7 @@
     </header>
 
     <section class="hero" id="home">
-        <div class="main-content">
+        <div class="main-content" data-aos="fade-in">
             <h4>Olá!</h4>
             <h1>Eu sou o <span>Navarro</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, nisi laboriosam? At, corporis.
@@ -70,10 +71,10 @@
     </section>
 
     <section class="about" id="about">
-        <div class="about-img">
+        <div class="about-img" data-aos="zoom-in-down">
             <img src="./images/fotoabout.png">
         </div>
-        <div>
+        <div class="about-text" data-aos="zoom-in-up">
             <h2>Eu sou Desenvolvedor <span>FullStack</span></h2>
             <div class="exp-area">
                 <p class="exp">
@@ -98,12 +99,12 @@
     </section>
 
     <section class="skills" id="skills">
-        <div class="center-text">
+        <div class="center-text" data-aos="flip-up">
             <h2>Minhas <span>Habilidades Técnicas</span></h2>
         </div>
-        <div class="skills-content">
+        <div class="skills-content"data-aos="slide-up">
 
-            <div class="box">
+            <div class="box" >
                 <img src="./images/angularvermelho.svg">
                 <h3>Desenvolvimento em Angular</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eum deleniti molestiae non quod
@@ -246,6 +247,13 @@
         });
     </script>
     <script src="./script/script.js"></script>
+    <script>
+        AOS.init({  
+            offset: 300,
+            once: true,
+            duration: 1000,
+        });
+    </script>
 
 </body>
 

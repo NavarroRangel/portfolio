@@ -13,3 +13,8 @@ menu.onclick = () => {
     menu.classList.toggle("bx-x");
     navlist.classList.toggle("active")
 }
+
+menu.onscroll = () => {
+    menu.classList.toggle("bx-x");
+    navlist.remove.toggle("active")
+}
