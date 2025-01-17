@@ -22,6 +22,7 @@ form textarea{
     color: var(text-color);
     margin-bottom: 20px;
     border-radius: 8px; 
+    color:var(--text-color);
 
 }
 
@@ -51,3 +52,4 @@ form .send-btn:hover{
     cursor: pointer;
     transform: scale(1.1);
 }
+
