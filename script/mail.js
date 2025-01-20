@@ -5,7 +5,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
 
-    const whatsappMessage = `Olá! Meu nome é ${name}. Meu e-mail é ${email}. Aqui está minha mensagem: ${message}`;
+    const whatsappMessage = `Olá! Meu nome é ${name}. Meu e-mail é ${email}.  ${message}`;
 
     const phoneNumber = "5541997047530";
 
