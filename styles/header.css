@@ -10,7 +10,6 @@ header {
     padding: 40px 16%;
     background: transparent;
     transition: all .5s ease;
-    background: var(--bg-color);
     box-shadow: 0 .1rem 1rem rgba(0,0,0,.2);
 }
 
@@ -70,7 +69,7 @@ span{
 }
 
 header.sticky {
-
+    background: var(--bg-color);
     padding: 16px 16%;
 }
 
