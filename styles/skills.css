@@ -35,7 +35,7 @@
 }
 
 .box h3{
-    font-size: 30px;
+    font-size: clamp(16px, 5vw, 32px);
     font-weight: 700;
     margin-bottom: 10px;
 }
