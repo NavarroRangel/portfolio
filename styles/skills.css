@@ -15,6 +15,9 @@
 }
 
 .box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     padding: 80px 40px 66px;
     background: #2d343f;
     border-radius: 28px;
@@ -26,6 +29,8 @@
 
 .box img{
     margin-bottom: 20px;
+    width: 90px;
+    
 
 }
 
